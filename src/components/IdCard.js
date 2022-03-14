@@ -1,7 +1,7 @@
 export function IdCard({lastName, firstName, gender, height, birth, picture}) {
 return (
     <div style={{ border: '3px solid black', width: '20%' }}className='idcard-container'>
-         <img src={picture}></img>
+         <img src={picture} alt='user'></img>
         
         <p>First name: {firstName}</p>
         <p>Last name: {lastName}</p>
