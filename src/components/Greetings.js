@@ -29,7 +29,7 @@ export const Greetings = ({ lang, children }) => {
     if (lang === 'fr') {
       return (
         <div>
-          Frenchie
+          French
           <p>Bonjour {children}</p>
         </div>
       );
